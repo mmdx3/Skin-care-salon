@@ -28,7 +28,7 @@ const page = () => {
           >
             <h3 className="h3 mb-8 text-center xl:text-left ">Contact info</h3>
             {/* items */}
-            <div className="flex flex-col items-start xl:items-start gap-12 mx-auto">
+            <div className="flex flex-col items-start xl:items-start gap-12 xl:mx-auto">
               {/* item */}
               <div className="flex items-start gap-4">
                 {/* icon */}
