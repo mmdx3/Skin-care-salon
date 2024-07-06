@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import CursorProvider from "@/components/CursorContext";
 import Transition from "@/components/Transition";
 import PageTransition from "@/components/PageTransition";
+import { Analytics } from "@vercel/analytics/react"
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${montserrat.variable} ${marcellus.variable} overflow-x-hidden`}
       >
         <CursorProvider>
+          <Analytics />
           <Transition />
           <Header />
           <PageTransition>{children}</PageTransition>
