@@ -1,4 +1,4 @@
-import CountUp from "react-countup/build/CountUp";
+import CountUp from "react-countup";
 
 type Props = {
   countNum: number;

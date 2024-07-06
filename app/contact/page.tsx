@@ -28,7 +28,7 @@ const page = () => {
           >
             <h3 className="h3 mb-8 text-center xl:text-left ">Contact info</h3>
             {/* items */}
-            <div className="flex flex-col items-center xl:items-start gap-12 ">
+            <div className="flex flex-col items-start xl:items-start gap-12 mx-auto">
               {/* item */}
               <div className="flex items-start gap-4">
                 {/* icon */}
@@ -52,7 +52,7 @@ const page = () => {
                 </div>
                 <div className="pt-1 flex-1 ">
                   <h4 className="h4 mb-2">Phone Number</h4>
-                  <div className="pt-1 flex flex-1 ">
+                  <div className="pt-1 flex flex-1 flex-col">
                     <p>Phone : +98 9354501795</p>
                     <p>Fax : +98 9354501795</p>
                   </div>

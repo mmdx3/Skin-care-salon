@@ -17,7 +17,7 @@ const Header = () => {
     useContext<ICursorContext>(CursorContext);
   const [mobileNav, setMobilenav] = useState<boolean>(false);
   return (
-    <header className="pb-6 xl:pb-[50px] fixed bg-accent-100 xl:bg-transparent w-full">
+    <header className="pb-6 xl:pb-[50px] fixed bg-accent-100 xl:bg-transparent w-full z-[9999]">
       {/* topbar */}
       <div className="bg-secondary-100 mb-6 xl:mb-[50px] xl:h-[50px] py-4 xl:py-0 ">
         <div className="container mx-auto h-full">

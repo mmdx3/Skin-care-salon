@@ -28,7 +28,7 @@ const page = () => {
             className="relative w-[304px] h-[423px] xl:w-[384px] xl:h-[534px] mb08 xl:mx-0 "
           >
             <Image
-              src={"/assets/about/img.png"}
+              src={"/assets/about/img.jpg"}
               fill
               quality={100}
               priority
